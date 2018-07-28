@@ -1,105 +1,110 @@
 {
-  "datos": [
+  "series": [
     {
-      "id": 1,
-      "valores": [
-          1, 2, 3, 4, 5, 6, 7, 8, 9
+      "labels": [
+        {
+          "id": 1,
+          "value": "Lunes"
+        },
+        {
+          "id": 2,
+          "value": "martes"
+        },
+        {
+          "id": 3,
+          "value": "miercoles"
+        },
+        {
+          "id": 4,
+          "value": "jueves"
+        },
+        {
+          "id": 5,
+          "value": "viernes"
+        },
+        {
+          "id": 6,
+          "value": "sabado"
+        },
+        {
+          "id": 7,
+          "value": "domingo"
+        }
       ]
     },
     {
-      "id": 2,
-      "valores": [
-        2, 56, 56, 45, 89, 12, 45, 67, 98
-      ]
-    },
-    {
-      "id": 3,
-      "valores": [
-        1, 34, 56, 23, 67, 23 ,56, 87, 2
+      "values": [
+        {
+          "id": 1,
+          "name": "Installation",
+          "data": [
+            43934,
+            52503,
+            57177,
+            69658,
+            97031,
+            119931,
+            137133,
+            154175
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Manufacturing",
+          "data": [
+            24916,
+            24064,
+            29742,
+            29851,
+            32490,
+            30282,
+            38121,
+            40434
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Sales & Distribution",
+          "data": [
+            11744,
+            17722,
+            16005,
+            19771,
+            20185,
+            24377,
+            32147,
+            39387
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Project Development",
+          "data": [
+            23,
+            45,
+            7988,
+            12169,
+            15112,
+            22452,
+            34400,
+            34227
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Other",
+          "data": [
+            12908,
+            5948,
+            8105,
+            11248,
+            8989,
+            11816,
+            18274,
+            18111
+          ]
+        }
       ]
     }
-  ],
-  "labels": [
-    { "id": 1,
-      "theme": "dias",
-      "valores": [
-        "lunes",
-        "martes",
-        "miercoles",
-        "jueves",
-        "viernes",
-        "sabado",
-        "domingo"
-        ] },
-    { "id": 2,
-      "theme": "meses",
-      "valores": [
-        "enero",
-        "febrero",
-        "marzo",
-        "abril",
-        "mayo",
-        "junio",
-        "julio",
-        "agosto",
-        "septiembre",
-        "octubre",
-        "noviembre",
-        "diciembre"
-        ] }
-  ],
-  "series": [{
-    "labels":  [
-      {
-        "id": 1,
-        "value": "Lunes"
-      },
-      {
-        "id": 2,
-        "value": "martes"
-      },
-      {
-        "id": 3,
-        "value" : "miercoles"
-      },
-      {
-        "id": 4,
-        "value": "jueves"
-      },
-      {
-        "id": 5,
-        "value": "viernes"
-      },
-      {
-        "id": 6,
-        "value" : "sabado"
-      },
-      {
-        "id": 7,
-        "value": "domingo"
-      }
-    ],
-
-    "values" : {
-        "id": 1,
-        "name": "Installation",
-        "data": [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-    }, {
-        "id": 2,
-        "name": "Manufacturing",
-        "data": [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-    }, {
-        "id": 3,
-        "name": "Sales & Distribution",
-        "data": [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-    }, {
-        "id": 4,
-        "name": "Project Development",
-        "data": [23, 45, 7988, 12169, 15112, 22452, 34400, 34227]
-    }, {
-        "id": 5,
-        "name": "Other",
-        "data": [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
-    }
-    }]
+  ]
 }
