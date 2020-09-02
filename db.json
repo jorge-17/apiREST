@@ -1,75 +1,28 @@
 {
-  "serie": [
+  "tareas": [
     {
       "id": 1,
       "values": {
-        "id": 1,
-        "name": "Installation",
-        "data": [
-          43934,
-          52503,
-          57177,
-          69658,
-          97031,
-          119931,
-          137133,
-          154175
-        ]
+        "tema": "Escuela",
+        "nombre": "Investigar Guerra Fría",
+        "estatus": "p"        
       }
-    }
-  ],
-  "series": [
-    {
-      "id": 1,
-      "labels": [
-        {
-          "id": 1,
-          "value": "Lunes"
-        },
-        {
-          "id": 2,
-          "value": "martes"
-        },
-        {
-          "id": 3,
-          "value": "miercoles"
-        },
-        {
-          "id": 4,
-          "value": "jueves"
-        },
-        {
-          "id": 5,
-          "value": "viernes"
-        },
-        {
-          "id": 6,
-          "value": "sabado"
-        },
-        {
-          "id": 7,
-          "value": "domingo"
-        }
-      ]
     },
     {
       "id": 2,
-      "values": [
-        {
-          "id": 1,
-          "name": "Installation",
-          "data": [
-            43934,
-            52503,
-            57177,
-            69658,
-            97031,
-            119931,
-            137133,
-            154175
-          ]
-        }
-      ]
+      "values": {
+        "tema": "Casa",
+        "nombre": "Ordenar zapatos",
+        "estatus": "p"        
+      }
+    },
+    {
+      "id": 3,
+      "values": {
+        "tema": "Trabajo",
+        "nombre": "Publicar cambios en GitHub",
+        "estatus": "p"        
+      }
     }
   ]
 }
